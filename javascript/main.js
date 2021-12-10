@@ -25,4 +25,5 @@ function checkResult(result, year){
 function clearInput(){
     document.getElementById('year').value = "";
 }
+
 const isLeapYear = (year) =>  year%100 === 0 ? year%400 === 0 : year%4 === 0;
